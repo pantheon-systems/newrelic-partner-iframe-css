@@ -1,10 +1,11 @@
-/*Stylesheet for Pantheon New Relic iframe*/
+/*CSS to fix the New Relic Partner iframe styling*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #1e1e2b;
+	font-size: 14px;
 }
 
 table {
@@ -17,7 +18,7 @@ thead th a {
 
 thead th:not(:first-child) {
 	padding-top: 12px;
-	padding-bottom: 4px;
+	padding-bottom: 6px;
 	text-align: center;
 	font-size: 12px;
 }
@@ -83,8 +84,12 @@ p#footer {
 	font-size: 18px;
 }
 
-/*.no_data h1,*/
+/*hide a link that leads to nowhere, and uncessary text*/
 .no_data .button {
+	display: none;
+}
+
+.no_data p:nth-child(3) {
 	display: none;
 }
 
@@ -92,12 +97,8 @@ p#footer {
 	margin-bottom: 24px;
 }
 
-.no_data p:nth-child(3) {
-	display: none;
-}
-
 .no_data h1::after {
-	content: "\A Once your site has traffic, data from New Relic will display here.";
+	content: "\A Once your site has traffic, data from New Relic will display here."; /*Force some more descriptive text into the empty state, since the html is not accessible*/
 	white-space: pre;
 	font-size: 14px;
 	font-weight: 400;
