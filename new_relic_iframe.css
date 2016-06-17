@@ -1,0 +1,104 @@
+/*Stylesheet for Pantheon New Relic iframe*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #1e1e2b;
+}
+
+table {
+	padding: 12px 12px 0 12px;
+}
+
+thead th a {
+	margin-left: -62px;
+}
+
+thead th:not(:first-child) {
+	padding-top: 12px;
+	padding-bottom: 4px;
+	text-align: center;
+	font-size: 12px;
+}
+
+th {
+	color: #999;
+	font-weight: 600;
+	border-bottom: 2px solid #DDE1E3;
+}
+
+tr:hover,
+tr:active {
+	background-color: #F5F6F7;
+}
+
+thead tr:hover {
+	background-color: #fff;
+}
+
+td {
+	padding: 12px 8px;
+  text-align: left;
+	border-top: 1px solid #DDE1E3;
+}
+
+td:not(:nth-child(2)) {
+	text-align: right;
+}
+
+td:nth-child(2) {
+	padding-left: 14px;
+}
+
+td a {
+	color: #007ed9;
+	text-decoration: none;
+}
+
+td a:hover {
+	color: #1667ae;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+td p {
+	font-size: 12px;
+	margin: 0;
+}
+
+p#footer {
+	font-size: 12px;
+	color: #999;
+	margin: 4px 0 0 0;
+}
+
+/*Empty State styles*/
+.no_data {
+	width: 75%;
+	font-size: 14px;
+}
+
+.no_data h1 {
+	font-size: 18px;
+}
+
+/*.no_data h1,*/
+.no_data .button {
+	display: none;
+}
+
+.no_data h1 {
+	margin-bottom: 24px;
+}
+
+.no_data p:nth-child(3) {
+	display: none;
+}
+
+.no_data h1::after {
+	content: "\A Once your site has traffic, data from New Relic will display here.";
+	white-space: pre;
+	font-size: 14px;
+	font-weight: 400;
+}
