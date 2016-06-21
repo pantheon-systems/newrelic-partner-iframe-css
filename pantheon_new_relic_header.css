@@ -4,8 +4,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 1em;
-    margin-left: -10px;
-    margin-top: -10px;
     margin-right: auto;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 1.6;
@@ -15,6 +13,10 @@
 
 div {
     display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 #pantheon-logo{
