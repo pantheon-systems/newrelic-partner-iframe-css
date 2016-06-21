@@ -12,8 +12,8 @@ table {
 	padding: 12px 12px 0 12px;
 }
 
-thead th a {
-	margin-left: -62px;
+thead th:first-child {
+	text-align: left;
 }
 
 thead th:not(:first-child) {
@@ -72,6 +72,30 @@ p#footer {
 	font-size: 12px;
 	color: #999;
 	margin: 4px 0 0 0;
+}
+
+.app_traffic_light {
+	width: 5%;
+}
+
+.app_name {
+	width: 40%;
+}
+
+.app_server {
+	width: 12%;
+}
+
+.throughput {
+	width: 12%;
+}
+
+.error_rate {
+	width: 16%;
+}
+
+.actions {
+	width: 0;
 }
 
 /*Empty State styles*/
