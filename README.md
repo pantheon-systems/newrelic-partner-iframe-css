@@ -6,7 +6,8 @@ Navigate to the _live_ appserver binding of the marketing site, and update the `
 
 ```
 @hubot site me pantheon.io
-Use the debug panel
+Use the debug panel to find the appserver for the live environment
+ssh onto it, using the listed ssh command
 cd code/sites/default/files/new_relic
 git pull origin master
 ```
