@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+a:hover,
+a:active {
+    border-bottom: 0;
+}
+
 #pantheon-logo {
 	font-size: 1.5em;
   line-height: 1em;
