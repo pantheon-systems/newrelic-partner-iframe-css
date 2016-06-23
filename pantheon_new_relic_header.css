@@ -1,12 +1,6 @@
 .pantheon-container {
-    width: 100%;
-    padding-left: 1em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 1em;
-    margin-right: auto;
+    padding: 10px 14px;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    line-height: 1.6;
     font-size: 14px;
     background-color: #333333;
 }
@@ -24,8 +18,8 @@ a:active {
     border-bottom: 0;
 }
 
-#pantheon-logo{
+#pantheon-logo {
 	font-size: 1.5em;
-    line-height: 1em;
-    color: #fcfcfc;
+  line-height: 1em;
+  color: #fcfcfc;
 }
